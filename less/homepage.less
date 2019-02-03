@@ -1,18 +1,41 @@
+h1 {
+  font-size: 5rem;
+  background-color: @dark;
+  color: rgb(237, 239, 245);
+  text-align: center;
+  border-radius: 5rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.253);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 4rem;
+  p {
+    font-size: 3rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .container {
   display: flex;
 }
 
 .main {
   width: 50%;
-  height: 100vh; 
-  background-color: red;
 }
 
 .red {
   background-color: @mainRed;
   display: flex;
-  justify-content: center;
-  align-content: flex-end;
+  flex-direction: column;
+  align-content: center;
 }
 
 .white {
@@ -20,7 +43,7 @@
 }
 
 #chefImg {
-  margin-top: 4rem;
-  width: 90%;
+  margin: 20rem auto 1rem auto;
+  width: 70%;
 }
 
